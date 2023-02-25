@@ -1,0 +1,199 @@
+<!-- CREATING A PERSONAL WEBSITE USING ONLY HTML SAME AS THAT OF COMPUTER TYCOONS OR YAHOO OR GOOGLE
+     BACK IN 19TIES -->
+
+<!-- learned about heading tag that is from <h1> to <h6>
+     <br> break tag for space and new line
+     <hr> horizontal row to add doundary lines also has attributes look at documentation-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF 8">
+      <title>NEHA PERSONAL SITE</title>
+      <link rel="stylesheet" href="css/style.css"> <!--link for css style -->
+
+      <!-- STARTED WITH CSS [internal css]-> but we have used EXTERNAL CSS CREATING A DIFFERNT FOLDER
+                                             AT SAME HERICAL LEVEL AS get_start.html and creating 
+                                             NEW FILE IN THAT FOLDER AND LINKING IT TO ALL WEB PAGES
+                                             USING link
+      <style>
+        
+        body{
+          background-color:ivory;
+        }
+
+        hr{
+          background-color:ivory;
+          border-color: rgb(176, 184, 193);
+          border-style:none;
+          border-top-style:dotted;
+          border-width : thick;
+          width : 5%;
+        }
+        
+      </style>-->
+    </head>
+
+    <body>
+      <!-- ADDING IMAGE TO THE WEB-SITE
+       <img> tag [html element] is used along with source (src) attribute 
+       src specify the address of the image, either the image can be online or from yor pc 
+       for this the image must be loaded in same directory as your website-->
+
+      <!-- ADDING IMAGE WHICH IS STORED IN YOUR PC -->
+      <!-- alt stand for alternative text, this is a case for say if a browser can't render the image 
+        then it will simply display an alternative text to the user to describe what that image was about -->
+      
+      <table cellspacing = "20">
+        <tr>
+          <td><img src="https://media.licdn.com/dms/image/D5603AQEurm1WTNhIHg/profile-displayphoto-shrink_400_400/0/1662646767731?e=1682553600&v=beta&t=-QhzbRRaVWFzaR4-En6qgUyt2D1QRaTfSrsWkF0nmUQ" alt="Profile Photo" width="250" height="250"></td>
+          <td>
+            <h1>Neha Pudake</h1>
+            <!-- paragraph tag <p> read documentaion 
+            (browser will automatically add one blank line before the paragraph starts)
+        
+            To italicize the text in HTML, use either the em tag or the i (italics) tag.
+            Both of these tags will italicize the text,
+            but the em tag additionally indicates that the text has stress emphasis when read. 
+      
+            READ THE DOCUMENT FOR DIFFERENCE BETWEEN 
+            -> EMPHASIS & ITALIC i.e (<em> & <i>)
+            -> EMPHASIS & STRONG
+            -> BOLD & STRONG  
+     
+            GOOD PARACTICE TO USE EMPHASIS INSTEAD OF ITALIC AND STRONG INSTEAD OF BOLD -->
+
+            <!-- ADDING ANCOR TAG <a> AND HYPERLINKS TO THE WEB SITE -->
+            
+            <p><em>Student Placement Coordinator at <strong><a href="https://tssm.edu.in/">TSSM BSCOER</a></strong></em></p>  
+      
+            <P>
+              I am currently persuing my B.E degree in computer engineering from
+              <a href="http://www.unipune.ac.in/"> Savitraibai Phule Pune University </a>.<br>
+              I am curruntly working as student placement coordinate at tssm Bscoer.<br>
+              Also the member of NCC actively participating in social activities and love to communicate 
+              with people.
+            </P>
+          </td>
+        </tr>
+      </table>
+
+      <hr size="3" noshade>
+      <h3>SKILLS</h3>
+      <table cellspacing = "10">
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td>Painting</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Python</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+
+          <td>
+            <table>
+              <tr>
+                <td>Data Science</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Web Development</td>
+                <td>⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      
+      <hr size="3" noshade>
+      <h3>HOBBIES</h3>
+      <p>reading<br>dancing<br>drawing</p>
+      <!-- INSTEAD OF ADDING <br> Every time for creating a list,
+        html has two type of tags first <ul> which stands for un-structured list (bullitens)
+        and second <ol> which stands for ordered list (number , roman number etc) 
+        the <li> list tag is used inside <ul> and <ol> to identify the list element.
+        see mdn documentation for more info    -->
+      
+      <hr size="3" noshade>
+      <h3>BOOKS I READ</h3>
+
+      <ol>
+        <li>The Secret</li>
+        <li>The Alchamist</li>
+        <li>Power of Subconsious Mind</li>
+      </ol>
+
+      <hr size="3" noshade>
+      <h3>SCHOOL AND COURSES</h3>
+
+      <ul>
+        <li>Pius Memorial High School</li>
+          <ul>
+          <li>Primary education</li>
+          </ul>
+        <li>MIT College of Science</li>
+          <ul>
+          <li>Secondary education</li>
+          </ul>
+        <li>Savitri bai Phule Pune University</li>
+          <ul>
+          <li>Engineering</li> 
+          </ul> 
+      </ul>
+
+      <hr size="3" noshade>
+      <h3>Contact Details</h3>
+      <a href="contact.html">Connect</a>
+      
+      <hr size="3" noshade>
+      
+      <!-- ADDING IMAGE FROM ONLINE SOURCE 
+        When the browser looks through this file to see how it should load it up and
+        display it, when it comes across this image tag it has to go
+        and ping the server to try and obtain this image. 
+        And if it gets permission to download this image, then it will grab that image and display it over here.-->
+      <img src="https://media.istockphoto.com/id/610041376/photo/beautiful-sunrise-over-the-sea.jpg?s=612x612&w=0&k=20&c=R3Tcc6HKc1ixPrBc7qXvXFCicm8jLMMlT99MfmchLNA=">
+
+      <!-- CREATING A TABLE IN HTML -->
+      <table><!--table element-->
+
+        <thead><!--table header (main row)-->
+          <th>Examination</th><!--header cell-->
+          <th>Marks</th>
+        </thead>
+
+        <tbody><!--table body (to create other rows)-->
+          <tr><!--table row-->
+            <td>SSC</td><!--table data-->
+            <td align="center">92%</td>
+          </tr>
+          <tr>
+            <td>HSC</td>
+            <td align="center">80%</td>
+          </tr>
+          <tr>
+            <td>F.E</td>
+            <td align="center">9.73 cgpa</td>
+          </tr>
+          <tr>
+            <td>S.E</td>
+            <td align="center">9.0 cgpa</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td>T.E</td>
+            <td>Current</td>
+          </tr>
+        </tfoot>
+        
+      </table>
+
+    </body>
+</html>

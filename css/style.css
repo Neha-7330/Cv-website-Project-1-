@@ -1,0 +1,34 @@
+/* 
+# CSS SYNTAX --> the grammar of the CSS Language
+
+SELECTOR { PROPERTY : VALUE ; }
+    |         |         |
+  WHO?       WHAT?     HOW?
+
+WHO IS IT THAT WE WANT TO MODIFY (H1 P HR IMG etc)?
+WHAT ABOUT THAT SELECTOR YOU WANT TO CHANGE (BG color position etc)
+HOW DO YOU WANT TO CHANGE THE PROPERTY OF THAT PARTICULAR SELECTOR
+*/
+
+
+body{
+    background-color:#F5F5F5;
+}
+
+hr{
+    background-color:#F5F5F5;
+    border-color: #C0DEFF;
+    border-style:none;
+    border-top-style:dotted;
+    border-width : thick;
+    width : 6%;
+}
+
+h1{
+    color:#A555EC;
+}
+
+h3{
+    color: #ADA2FF;
+}
+
